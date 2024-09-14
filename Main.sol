@@ -10,7 +10,6 @@ interface IProfile {
         string bio;
     }
 
-    // CODE HERE
     function getProfile(
         address _user
     ) external view returns (UserProfile memory);
